@@ -1,0 +1,999 @@
+:root{
+    --boxShadow: 0 0.5rem 1.1rem 0.5rem #20364bc5;
+}
+
+
+/* 
+@media screen and (max-width:640px){
+    .circulo1{
+        color:#c90001;
+    }
+    }
+    
+    @media screen and (min-width:640px) and (max-width:1280px){
+        .circulo1{
+            color:#1e8cb0;
+        }
+        }
+    
+    @media screen and (min-width:1280px){
+        .circulo1{
+            color:yellow;
+        }
+        } */
+/* todas las páginas */
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Rock Salt', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 1rem;
+    box-sizing:content-box;
+}
+
+body{
+    position:relative;
+    display: block;
+    flex-direction: column;
+    align-content: center;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+    height: auto;
+    background: #dce0cd;
+    scrollbar-color:  transparent transparent;
+}
+
+header{
+    width: 100%;
+    height: 7rem;
+    min-height: 8vh;
+    margin: 0 auto 0 auto;
+    position:fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 0;
+    background: #2e74b7;
+
+}
+
+@media screen and (max-width:640px){
+header{
+        height: 6rem;
+    }
+    }
+
+main{
+    width: 80%;
+    max-width: 1280px;
+    height: auto;
+    margin: 8rem auto 0 auto;
+    padding: 1rem; 
+    position:static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    scrollbar-color:  transparent transparent;
+    overflow-x: hidden; 
+    line-height: 1.5em; 
+}
+
+@media screen and (max-width:640px){
+    main{
+    width: 95%;
+    padding: 0.5;
+    margin: 6rem auto 0 auto;
+    }
+    }
+
+footer{
+    width: 100%;
+    height: 8vh;
+    position:static;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
+    font-family: "Fira Sans";
+    background: #181d2a;
+    color: white;
+}
+
+h1{
+
+    font-family: "Rubik";
+    font-size: 4rem;
+
+}
+
+@media screen and (max-width:640px){
+    h1{
+ font-size: 2rem;   
+ }
+    }
+
+h2{
+    font-size: 3rem;
+        font-family: "Rubik";
+    color: #1e8cb0;
+}
+@media screen and (max-width:640px){
+    h2{
+        font-size: 1.5rem;
+        line-height: 1.1;
+    }
+    }
+
+h3{
+    font-size: 1.8rem;
+    font-family: "Rubik";
+    color: #c90001; 
+}
+
+@media screen and (max-width:640px){
+    h3{
+        font-size: 1.4rem;
+
+    }
+    }
+
+
+h4{
+    font-size: 1.3rem;
+    font-family: "Rubik";
+    color: #142f48; 
+}
+
+@media screen and (max-width:640px){
+    h4{
+        font-size: 1.1rem;
+        line-height: 1.1;
+    }
+    }
+
+
+
+h5{
+    font-size: 1.2rem;
+    font-family: "Rubik";
+    color: #2e74b7; 
+}
+
+
+p{
+    font-family: "fira Sans";
+    margin: 1rem;
+}
+
+@media screen and (max-width:640px){
+    p{
+    margin: 0.4rem;
+    }
+    }
+    
+
+.circulo1{
+    width: 55rem;
+    height: 55rem;
+    max-width: 85rem;
+    min-width: 20rem;
+    border-radius: 100%;
+    position: fixed;
+    top: -20rem;
+    right: -30rem;
+    background-color: #efd604;
+    z-index: -3;
+}
+
+@media screen and (max-width:640px){
+    .circulo1{
+        width: 15rem;
+        height: 15rem;
+        top: 1rem;
+        left: 14rem;
+    }
+    }
+    
+@media screen and (min-width:640px) and (max-width:1280px){
+    .circulo1{
+        width: 30rem;
+        height: 30rem;
+        top: 1rem;
+        left: 45rem;
+        }
+        }
+
+.circulo2{
+    width: 100rem;
+    height: 100rem;
+    border-radius: 100%;
+    position: fixed;
+    top: 15rem;
+    left: -35rem;
+    z-index: -2;
+    background-color: #95d3e9;
+}
+
+@media screen and (min-width:640px) and (max-width:1280px){
+    .circulo2{
+        width: 40rem;
+        height: 40rem;
+        top: 25rem;
+        left: -15rem;
+        }
+        }
+
+@media screen and (max-width:640px){
+    .circulo2{
+        width: 30rem;
+        height: 30rem;
+        top: 25rem;
+        left: -15rem;
+    }
+    }
+    
+
+.circulo3{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    position: fixed;
+    top: 5rem;
+    left: 4em;
+    z-index: -1;
+    background-color: #181d2a;
+}
+@media screen and (min-width:640px) and (max-width:1280px){
+    .circulo3{
+        width: 5rem;
+        height: 5rem;
+        top: 5rem;
+        left: 5rem;
+        }
+        }
+@media screen and (max-width:640px){
+    .circulo3{
+        width: 3rem;
+        height: 3rem;
+        top: 4rem;
+        left: 1rem;
+    }
+    }
+    
+
+.circulo4{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    position: fixed;
+    top: 8rem;
+    left: 7rem;
+    z-index: -1;
+    background-color: #c90001;
+}
+@media screen and (min-width:640px) and (max-width:1280px){
+    .circulo4{
+        width: 40rem;
+        height: 40rem;
+        top: 50rem;
+        left: -15rem;
+        }
+        }
+@media screen and (max-width:640px){
+    .circulo4{
+        width: 1.7rem;
+        height: 1.7rem;
+        top: 5.5rem;
+        left: 3rem;
+    }
+    }
+    
+
+
+
+
+
+
+
+/* HEADER */
+
+
+    
+.logo-ppal{
+    width: 80px;
+    /* background: transparent; */
+background-color: #c90001;
+border-radius: 50% 0 50% 0;
+}
+
+@media screen and (min-width:640px) and (max-width:1280px){
+    .logo-ppal{
+        width: 65px;
+        }
+        }
+@media screen and (max-width:640px){
+    .logo-ppal{
+        width: 45px;
+    }
+    }
+    
+.header-logo { 
+    display: flex;
+    flex: auto;
+    position: absolute; 
+    top: 1rem;
+    left: 4rem;
+    align-content: center;
+    justify-content: center;
+    align-items:center;
+    width: 30px;
+
+}
+
+@media screen and (min-width:640px) and (max-width:1280px){
+    .header-logo{
+        left: 3rem;
+        }
+        }
+@media screen and (max-width:640px){
+    .header-logo{
+        left: 1rem;
+    }
+    }
+
+.header-titulo{
+    position: absolute;
+    padding: 0;
+    width: 100%;
+    min-height: 4em;
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Rock Salt', cursive;
+    color: #efd604; 
+    }  
+
+  
+    @media screen and (max-width:640px){
+        .header-titulo{
+            width: 70%;
+            height: 2rem;
+            top: -3rem;
+            left: 5rem;
+            min-height: 2em;
+            justify-content:center;
+            align-items: center;
+        }
+        }
+
+
+    @media screen and (max-width:640px){
+    .header-titulo{
+        font-size: 2rem;
+        display: flex;
+        flex: auto;
+        width: 60%;    
+        margin: 2 0 0 0 ;
+        align-items:center;
+        justify-content: center;
+    
+        }
+        }
+  
+    @media screen and (max-width:640px){
+        .header-titulo{
+            width: 8rem;
+            height: 2rem;
+            top: 1rem;
+            left: 6rem;
+        }
+        }
+    @media screen and (min-width:640px) and (max-width:1280px){
+       .header-titulo h1{
+            font-size: 3.2rem;
+            }
+            }
+        @media screen and (max-width:640px){
+            .header-titulo h1{
+                font-size: 1.8rem;
+            }
+            }        
+
+
+/* HEADER ENLACES */
+ .nav{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute; right: 1rem;
+    align-content: space-around;
+    justify-content: flex-end;
+    align-items:center;
+    width: 15%;
+    height: auto;
+} 
+
+
+
+
+
+.nav a{
+    color: midnightblue;
+    text-decoration:none;
+    font-family: 'Fira sans';
+    margin: 0.3rem;
+    text-align: center;
+}
+
+@media screen and (max-width:640px){
+    .nav a{
+    margin: 0.2rem;
+
+    }
+    }
+
+    
+.nav a:hover{
+background-color: #c90001;
+transition: all 0.3s ease-in-out;
+border-radius: 10px;
+transform: scale(1.2);
+box-shadow: 0 0 30px #181d2a;
+
+}
+
+
+
+.button, .button-especial{
+    border: none;
+    height: 1.15rem;
+    flex:auto;
+    padding: 0.4rem;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #5aafcc;
+    font-family:"fira sans";
+    font-size: 1rem;
+   
+}
+.button-especial{
+    background-color: #efb004;
+}
+
+@media screen and (min-width:640px) and (max-width:1280px){
+    .button, .button-especial{
+        height: 1.15rem;
+        flex:auto;
+        padding: 0.2rem;
+        margin: 0;
+        font-size: 1rem;
+        }
+         } 
+
+@media screen and (max-width:640px){
+    .button, .button-especial{
+    height: 0.8rem;
+    flex:auto;
+    padding: 0.1rem;
+    margin: 0;
+    font-size: 0.7rem;
+    }
+}
+
+
+
+
+
+/* footer */
+
+.footer-derechos{
+    display: flex;
+    align-items: center;
+}
+.footer-logos{
+    align-items: center;
+    justify-content: center;
+
+}
+.fab{
+    color: white;
+}
+
+.mailto a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 10 0 10 0;
+    font-size: 1.5rem;
+    font-family: 'Rubik';
+    color: #2e74b7;
+}
+
+
+.mailto a:hover{
+background-color: #c90001;
+transition: all 0.3s ease-in-out;
+border-radius: 10px;
+transform: scale(1.2);
+box-shadow: 0 0 30px #181d2a;
+
+/* box-shadow: 0 0 3px #f5e6f3; */
+}
+
+
+
+/* index  */
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    border: 0;
+    justify-content:flex-start;
+    text-align:center;
+    padding:  0 0 0m 0;
+    width: 100%;
+    height: 6rem;
+    margin-top: 0ex;
+    scrollbar-color:  transparent transparent;
+}
+
+@media screen and (max-width:640px){
+    .presentacion{
+    margin: 0.2rem;
+
+    }
+    }
+
+.principales, .principal-reglas-colores{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width:95%;
+    padding: 0.5rem 0.5rem 0.5rem 5rem;
+    height: auto;
+    grid-gap: 2rem;
+    align-items:flex-start;
+    justify-content:center;
+    scrollbar-color:  transparent transparent;
+}
+
+@media screen and (max-width:640px){
+    .principales{
+        grid-template-columns: repeat(1,3fr);
+        grid-gap: 0.5rem;
+        padding: 0;
+
+    }
+}
+
+.section .foto-home h2{
+    color: #c90001;
+}
+
+.section{
+    width: 100%;
+    display: flex;
+    height: auto;
+    margin: 2rem 0 2rem 0; 
+    min-height: max-content;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 0.5rem;
+
+}
+
+@media screen and (max-width:640px){
+    .section{
+        margin: 5;
+
+    }
+}
+ 
+.foto-home{
+padding: 0.5rem 0.5rem 3rem 0.5rem ;
+}
+
+
+.section h2{
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #1e8cb0;
+    transition: all 0.4s ;
+}
+
+@media screen and (max-width:640px){
+    .section h2{
+        font-size: 1.5rem;
+        line-height: 1.1;
+
+    }
+}
+
+.section h2:hover{
+    transition-duration: 0.4s ease;
+    font-size: 1.9rem;
+    color: #142f48;
+}
+
+.section p{
+    font-size: 1.1em;
+    text-align: justify;
+    font-family: "Fira Sans";
+    font-weight: 500;
+}
+
+.foto-ppal {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+
+}
+
+
+.separador{
+    height: 5rem;
+}
+
+.foto-ppal:hover {
+    transform:scale(1.05);
+    transition-duration: 0.2s;
+    /* border-radius: 500px; */
+    box-shadow: var(--boxShadow);
+} 
+
+
+
+
+/*PINTURAS */
+
+.Detalle-Pinturas h3{
+    color: #c90001;
+}
+
+
+.pinturas{
+    left: auto;
+    right: auto;
+}
+
+.Detalle-Pinturas{
+    height: auto;
+    width: 80%;
+    }
+
+.Descripcion-Pinturas{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute; right: 1rem;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items:center;
+       
+}
+
+.lista li{
+    padding: 0;
+    font-weight: 500;
+    font-family: "fira Sans";
+    font-size: 0.7;
+    list-style-type:none;
+    list-style-position:none;
+}
+
+
+.pinturas-down-left{
+    font-style: normal;
+    float: left;
+    width: 20rem;
+}
+
+@media screen and (max-width:640px){
+    .pinturas-down-left{
+        width: 10rem;
+
+    }
+}
+
+.pinturas-down-right{
+    float: right;
+    width: 15rem;
+}
+@media screen and (max-width:640px){
+    .pinturas-down-right{
+        width: 10rem;
+
+    }
+}
+
+
+#inicio{
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #181d2a;
+    font-family: "fira Sans";
+
+}
+
+
+
+
+.fotosPinturasArtisticas{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    width: 80%;
+    margin: 3rem auto;
+    grid-gap: 2rem;
+    justify-content: center;
+    padding: 2  10  2   2   ;
+}
+
+
+
+
+@media screen and (max-width:640px){
+    .FotosPinturasArtisticas{
+       width: 100%;
+       margin:0
+    }
+}
+.fotosPinturasArtisticas img{
+width: 80%;
+transition: all 300ms;
+position: relative;
+
+
+}
+
+@media screen and (max-width:640px){
+    .FotosPinturasArtisticas img{
+       width: 100%;
+       padding: 0.5rem;
+
+    }
+}
+
+
+
+
+.fotosPinturasArtisticas img:hover{
+    transform: scale(1.11);
+    box-shadow: var(--boxShadow);
+}
+
+title{
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Fira sans";
+}
+
+section.Detalle-Pinturas-Artísticas{
+    display: grid;
+    grid-template-columns: repeat(2,6fr);
+    width: 80%;
+    margin: 0.5%;
+    grid-gap: 2rem;
+    border: blue 1px solid;
+}
+
+section.Detalle-Pinturas-Artísticas img{
+    width: 50%;
+    transition: all 300ms;
+    position: relative
+}
+.contactanos{
+    text-align: center;
+}
+
+
+
+
+
+/* REGLA DE COLORES */
+
+.principal-reglas-colores{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    padding: 0.5rem;
+    height: auto;
+    align-items:center;
+    justify-content:center;
+    scrollbar-color: transparent;
+
+
+}
+.principal-reglas-colores p{
+font-size: 1.2rem;
+}
+
+.foto-reglas{
+    height: 40rem;
+}
+@media screen and (max-width:640px){
+    .foto-reglas{
+        height: 15rem;
+
+    }
+
+}
+.detalle-tecnicas {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    height: auto;
+    width: 85%;
+    margin: 0.2%;
+    align-items:flex-start;
+    justify-content:space-around;
+    scrollbar-color: transparent;
+    text-align: justify;
+    column-gap: 1rem;
+    flex-grow: 1rem;
+
+} 
+
+@media screen and (max-width:640px){
+    .detalle-tecnicas {
+        flex-direction: column;
+
+    }
+}
+
+
+.detalle-tecnicas h5, h3{
+    text-align: center;
+}
+
+.detalle-tecnicas img{
+    width: 18rem;
+
+}
+.pinturas-down{justify-content: center;}
+
+.descripcion-tecnicas{
+    column-width: 1/3;
+    justify-content: center;
+}
+
+
+.contacto{
+
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    height: auto;
+    grid-gap: 5%;
+    padding: 2rem;
+    align-items:center;
+    align-content: center;
+    justify-content:center;
+    scrollbar-color:  transparent transparent;
+    }
+
+    @media screen and (min-width:640px) and (max-width:1280px){
+        .contacto{
+            margin-top: 6rem;
+            grid-template-columns: repeat(1,4fr);
+        }
+        }
+
+        @media screen and  (max-width:640px){
+            .contacto{
+                width: 80%;
+                grid-template-columns: repeat(1,4fr);
+            }
+            }             
+
+
+.profesoras{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items:center;
+    justify-content: center;}
+
+.profesoras > img{
+    width: 100%;
+}
+
+@media screen and (min-width:640px) and (max-width:1280px){
+    .profesoras{
+        width: 80%;
+    }
+    }
+
+
+        
+@media screen and (max-width:640px){
+.circulo1{
+    color:#c90001;
+}
+}
+
+
+
+.formularios{
+    width: 100%;
+    font-family: "fira Sans";
+    display: flex;
+    line-height: 1.8;
+    text-align: justify ;
+    }
+
+    @media screen and (max-width:640px){
+        .formularios{
+            width: 80%;
+            font-size: 0.5rem;
+            align-content: center;
+            line-height: 1.2;
+            margin-left: 2rem;
+
+        }
+        }
+        
+
+.formulario-suscripcion{
+    font-family: "fira sans";
+}
+
+@media screen and (max-width:640px){
+    .formulario-suscripcion{
+margin-left: 2rem;
+
+
+
+input[type=text email tel mensaje] {
+    border: 1px;
+    font-family: "fira Sans";
+    border-radius: 0;
+  
+  }
+
+  button, input, select, textarea {
+    font-family : "Fira Sans";
+    font-size   : 100%;
+  }
+
+
+    @media screen and (min-width:640px) and (max-width:1280px){
+        .circulo1{
+            color:#1e8cb0;
+        }
+        }
+    
+    @media screen and (min-width:1280px){
+        .circulo1{
+            color:yellow 
+        }
+    }
+
+            
+    @media screen and (max-width:640px){
+    .circulo1{
+        color:#c90001;
+    }
+    }
+    

@@ -1,0 +1,113 @@
+
+body{
+    
+    position:absolute;
+    width:100%;
+    height: auto;
+    min-width: 800px;
+    flex-direction: column;
+    margin:0rem;
+    justify-content: center;
+   
+}
+.portada, .gracias{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: flex-start;
+    flex-direction: wrap;
+
+} 
+.portada-foto, .portada-gracias{
+    position:absolute;
+    z-index: -1;
+    width:100%;
+    min-width: 500px;
+    height: auto;
+    margin: 0;
+    background: transparent;
+}
+
+
+.portada-text, .portada-text-gracias{
+    width: 80%;
+    position:relative;
+    z-index: 1;
+    padding:  0rem 3rem 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    color: #142f48;
+    background: transparent;
+    text-align: center;
+    line-height: 0.8;
+    letter-spacing: 0.2rem;
+
+}
+
+.portada-text{
+    letter-spacing: 0.3rem;
+    line-height: 0.4;
+}
+
+ h1{
+    font-family: 'Rubik', sans-serif;
+    /* font-size: 7rem; */
+    font-size: calc(4em + 4vw);
+    display: inline-block;
+    font-weight: 700;
+
+    }
+/* 
+    .portada-text h1{
+        font-size: 10rem;
+        font-weight: 900;
+    }
+     */
+
+
+
+    h2{
+        font-family: 'Rubik', sans-serif;
+        font-size: calc(3em + 1vw);
+        font-family: 'Rubik', sans-serif;
+        color: #d1bd06;
+        text-shadow: 10px 1px 10px #0e2031;
+        text-align: center;
+        line-height: 1;
+    }
+    
+    
+.portada-text a{
+ text-decoration:none; 
+ color: #142f48;  
+}
+.portada-text h1::first-letter{
+    font-size: calc(2em + 2vw);
+    color: #efd604;
+}
+
+.portada-text-gracias h1::first-letter{
+    font-size: calc(1em + 0.3vw);
+    color: #efd604;
+}
+
+.portada-text a:hover{
+    color:#2e74b7;
+    transition: 0.6s linear;
+}
+
+
+.portada-text:hover{
+    color:#c90000d3;
+    transition: 0.6s linear;
+
+}
+
+
+/* 
+h1{
+    font-size: 3.5rem;
+    font-family: "Rubik";
+} */

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painting Everywhere</title>
+    <script src="https://kit.fontawesome.com/9e26ca3bb0.js" crossorigin="anonymous"></script>
+    <link rel="icon" type"images" href="../PAINTING/images/brush_icon-icons.com_49305.ico">
+    <link rel= "stylesheet" href= "estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600&family=Rock+Salt&family=Rubik:ital,wght@0,300;0,500;0,600;0,800;1,400&display=swap" rel="stylesheet">
+
+    <script type="text/javascript">
+        function validar(){
+
+            var form = document.form;
+                // if(form.nombre.value==0){
+                //     alert ("el campo nombre está vacío");
+                //     form.nombre.value="";
+                //     form.nombre.focus();
+                //     return false;
+                // }
+                if(form.correo.value==0){
+                    alert ("el campo E-mail está vacío");
+                    form.correo.value="";
+                    form.correo.focus();
+                    return false;
+                }
+
+                }
+    
+       
+    </script>
+</head>
+<body>
+    <div>
+
+<header>
+    <div class="header-logo">
+        <a href="index.html"><img src="../painting/images/LOGO-PINCEL.png" class=logo-ppal width="3em" alt="logo"></a>
+        </div>   
+   
+        <div class="header-titulo">
+            <h1>Painting Everywhere</h1>
+        </div>    
+
+        <div class="nav">
+            <a href="index.html"class="button"> Inicio </a>
+            <a href="pinturas-artisticas.html"class="button"> pinturas </a>
+            <a href="tecnicas-pintura.html"class="button"> Técnicas </a>
+            <a href="contactanos.html"class="button-especial">Contactános</a>
+        </div>
+       
+</header>
+</div>
+<div>
+<main>
+    <div class="circulo1"></div>
+    <div class="circulo2"></div>
+    <div class="circulo3"></div>
+    <div class="circulo4"></div>
+    <div class="presentacion">
+
+            <h2>Contactáte con nosotras</h2><br>
+            <h4>Somos Carola Moss y Teté Solar, profesoras recibidas en la Escuela de Bellas Artes y directoras de Painting Everywhere.
+            </h4>
+
+</div>
+        
+<div class="contacto">
+
+    <div class="profesoras">
+        
+
+        <img src="../PAINTING/images/pintoras.jpg" alt="Carola Moss y Teté Solar">
+    </div>
+
+
+    <div class="formularios">
+        <h5>
+            Damos talleres on-line en grupos reducidos o presenciales en nuestro taller de Belgrano.
+            Vení a conocernos y sumergite en el apasionante mundo del color.  
+            No es necesario tener experiencia previa ya que no hay consignas generales sino que cada alumno hace su camino.
+            Suscribite y te invitamos a una clase gratis para conocernos.
+            </h5>
+    </div>
+
+  
+    <div>
+        <p>Te esperamos en el taller de lunes a sábado de 14 a 21 en Belgrano en:</p>
+    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.7192047646163!2d-58.46553058447609!3d-34.56066428047066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6800381bae5%3A0x1b3c3af7685677f2!2sVidal%202489%2C%20C1428%20CSM%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1631113297129!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    
+
+ <div class="formulario-suscripcion"> 
+
+     <p>Suscribíte</p>
+     
+<form name="form" action="../PAINTING/gracias.html" method="POST" onsubmit="return validar();">
+
+    <input type="text" name="nombre" placeholder="Nombre"><br>
+    <input type="email" name="correo" placeholder="E-mail"><br>
+    <input type="tel" name="telefono" placeholder="Teléfono"><br>
+    <textarea name="mensaje" placeholder="Dejános tu mensaje" cols="40" rows="10"></textarea><br>
+    <br>
+    <button onclick="validar ();">Enviar datos</button>
+    <br>
+ 
+
+</form>
+
+</div>
+
+</div>
+
+</main>
+</div>
+
+
+
+
+<footer>
+
+    <div class="footer-derechos">
+        <p>Derechos reservados</p><br>
+    </div>
+
+    <div class="footer-logos">
+        <a href="http://www.instagram.com" target="blank"><i class="fab fa-instagram"></i></a>
+        <a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+        <a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+        <a href="http://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+    </div>
+</footer>
+
+</body>
+
+</html>
+
+
+
+
